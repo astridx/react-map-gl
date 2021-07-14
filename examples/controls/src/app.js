@@ -57,7 +57,7 @@ export default function App() {
         {...viewport}
         width="100%"
         height="100%"
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="https://demotiles.maplibre.org/style.json"
         onViewportChange={setViewport}
         mapboxApiAccessToken={TOKEN}
       >

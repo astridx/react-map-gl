@@ -74,12 +74,12 @@ const propTypes = {
 const defaultProps = {
   container: document.body,
   mapboxApiAccessToken: getAccessToken(),
-  mapboxApiUrl: 'https://api.mapbox.com',
+  mapboxApiUrl: 'https://demotiles.maplibre.org',
   preserveDrawingBuffer: false,
   attributionControl: true,
   reuseMaps: false,
   mapOptions: {},
-  mapStyle: 'mapbox://styles/mapbox/light-v8',
+  mapStyle: 'https://demotiles.maplibre.org/style.json',
   preventStyleDiffing: false,
 
   visible: true,
