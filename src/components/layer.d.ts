@@ -1,4 +1,4 @@
-import * as MapboxGL from "mapbox-gl";
+import * as MapboxGL from "maplibre-gl";
 import {ReactElement, Ref} from "react";
 
 export interface LayerProps {

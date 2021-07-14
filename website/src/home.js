@@ -41,7 +41,7 @@ export default class IndexPage extends React.Component {
             React Integration
           </h3>
           <p>
-          Integration on browser and Node.js, exposing the full power of mapbox-gl.
+          Integration on browser and Node.js, exposing the full power of maplibre-gl.
           </p>
 
           <h3>
